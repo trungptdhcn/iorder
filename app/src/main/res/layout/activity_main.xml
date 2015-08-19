@@ -20,16 +20,6 @@
                 app:expandedTitleMarginEnd="64dp"
                 app:expandedTitleMarginStart="48dp"
                 app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
-
-            <ImageView
-                    android:id="@+id/header"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/cover"
-                    android:fitsSystemWindows="true"
-                    android:scaleType="centerCrop"
-                    app:layout_collapseMode="parallax" />
-
             <android.support.v7.widget.Toolbar
                     android:id="@+id/anim_toolbar"
                     android:layout_width="match_parent"
