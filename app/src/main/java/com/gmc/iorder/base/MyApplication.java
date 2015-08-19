@@ -12,7 +12,7 @@ public class MyApplication extends Application
     public void onCreate()
     {
         super.onCreate();
-        FontsOverride.setDefaultFont(this, "SERIF", "mangatb.ttf");
+        FontsOverride.setDefaultFont(this, "SERIF", "R_light.ttf");
 //        FontsOverride.setDefaultFont(this, "MONOSPACE", "droidsans-bold.ttf");
     }
 }

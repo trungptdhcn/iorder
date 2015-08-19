@@ -11,17 +11,7 @@
         <item name="colorAccent">@color/accent_500</item>
     </style>
 
-    <style name="Text">
 
-    </style>
-    <style name="TextInformation" parent="Text">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:textSize">@dimen/text_size_mini</item>
-        <item name="android:textColor">@color/black</item>
-    </style>
     <style name="radio_button">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -57,4 +47,22 @@
         <item name="android:typeface">normal</item>
     </style>
 
+    <!--===========================================================================-->
+    <style name="Text">
+
+    </style>
+    <style name="TextInformation" parent="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/text_size_mini</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="SmallText" parent="Text">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="NormalText" parent="Text">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
 </resources>

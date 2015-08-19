@@ -21,7 +21,7 @@
     <color name="blue_semi_pressed">#738ffe</color>
     <color name="blue_semi_transparent">#805677fc</color>
     <color name="blue_semi_transparent_pressed">#80738ffe</color>
-
+    <color name="transparent">#00000000</color>
     <!--===========================================================-->
     <!--Indigo 500-->
     <color name="primary_500">#3F51B5</color>

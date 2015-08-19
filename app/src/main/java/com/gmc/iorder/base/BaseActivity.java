@@ -45,9 +45,9 @@ public abstract class BaseActivity<T> extends AppCompatActivity
 //        setSupportActionBar(toolbar);
 //        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.anim_toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        final Toolbar toolbar = (Toolbar) findViewById(R.id.anim_toolbar);
+//        setSupportActionBar(toolbar);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 //        collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
 //        ImageView header = (ImageView) findViewById(R.id.header);
